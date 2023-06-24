@@ -1,0 +1,58 @@
+<!-- <!DOCTYPE html> -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- <form action="index.php" method="post"></form> -->
+    <table class="cal">
+        <tr>
+            <td colspan="4"><input type="text" class="display-box1 input-group mb-3" id="txt_1" placeholder="0" name="firsttxt"></td>
+            <!-- <hr> -->
+        </tr>
+        <tr>
+            <td colspan="4"><input type="text" class="display-box1 input-group mb-3" id="txt_2" placeholder="0" name="sectxt"></td>
+            <!-- <hr> -->
+        </tr>
+        <tr>
+            <td colspan="4"><input type="text" class="display-box1 input-group mb-3" id="txt_3" placeholder="0" name="thirdtxt" value="<?php echo $result;?>"></td>
+            <!-- <hr> -->
+        </tr>
+        
+
+        <tr>
+            <td><input type="button" value="1" class="btns btns_left btn btn-dark" id="btn_1"></td>
+            <td><input type="button" value="2" class="btns btns_mid btn btn-dark" id="btn_2"></td>
+            <td><input type="button" value="3" class="btns btns_mid btn btn-dark" id="btn_3"></td>
+            <td><input type="button" value="/" id="btn_divide" class="btns btn btn-dark" name="btnop"></td>
+
+        </tr>
+        <tr>
+            <td><input type="button" value="4" class="btns btns_left btn btn-dark" id="btn_4"></td>
+            <td><input type="button" value="5" class="btns btns_mid btn btn-dark" id="btn_5"></td>
+            <td><input type="button" value="6" class="btns btns_mid btn btn-dark" id="btn_6"></td>
+            <td><input type="button" value="-" id="btn_subt" class="btns btn btn-dark" name="btnop"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" class="btns btns_left btn btn-dark" id="btn_7"></td>
+            <td><input type="button" value="8" class="btns btns_mid btn btn-dark" id="btn_8"></td>
+            <td><input type="button" value="9" class="btns btns_mid btn btn-dark" id="btn_9"></td>
+            <td><input type="button" value="+" class="btns btn btn-dark" id="btn_plus" name="btnop"></td>
+            <tr>
+                <td><input type="button" value="0" class="btns btns_left btn btn-dark" id="btn_0"></td>
+                <td><input type="button" value="." class="btns btns_mid btn btn-dark" id="btn_dot"></td>
+                <!-- <td><input type="button" value="=" class="btns btns_mid btn btn-dark" id="btn_equal"></td> -->
+                <td><input type="button" value="*" class="btns btn btn-dark" id="btn_product" name="btnop"></td>
+            </tr>
+            
+        </tr>
+    </table>
+    <script src="./bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
